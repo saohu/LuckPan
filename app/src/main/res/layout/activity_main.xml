@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <com.zixuexiangmu.SurfaceViewTep
+       android:id="@+id/luckPan"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="30dp"
+       android:layout_centerInParent="true"></com.zixuexiangmu.SurfaceViewTep>
+<ImageView
+    android:layout_centerInParent="true"
+    android:id="@+id/startBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/b"/>
+
+</RelativeLayout>
